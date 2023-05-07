@@ -3,6 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fruitimage"
     android:gravity="center">
 
     <LinearLayout
@@ -17,14 +18,18 @@
             android:text="Genus: "
             android:layout_marginBottom="13dp"
             android:textStyle="bold"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/genetics_fill0_wght400_grad0_opsz48"
+            android:textColor="@color/dark"
+            />
 
         <TextView
             android:id="@+id/tvGenus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textColor="@color/dark"/>
 
     </LinearLayout>
 
@@ -40,14 +45,17 @@
         android:text="Calories: "
         android:textStyle="bold"
         android:layout_marginBottom="13dp"
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/calories"
+        android:textColor="@color/dark"/>
 
     <TextView
         android:id="@+id/tvCalories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:textColor="@color/dark"/>
 
 </LinearLayout>
 
@@ -63,14 +71,17 @@
             android:text="Fat: "
             android:textStyle="bold"
             android:layout_marginBottom="13dp"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/trans_fat"
+            android:textColor="@color/dark"/>
 
         <TextView
             android:id="@+id/tvFat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textColor="@color/dark"/>
 
     </LinearLayout>
 
@@ -86,14 +97,17 @@
             android:text="Sugar: "
             android:textStyle="bold"
             android:layout_marginBottom="13dp"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/sugar_cube"
+            android:textColor="@color/dark"/>
 
         <TextView
             android:id="@+id/tvSugar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textColor="@color/dark"/>
 
     </LinearLayout>
 
@@ -109,14 +123,17 @@
             android:text="Carbohydrate: "
             android:textStyle="bold"
             android:layout_marginBottom="13dp"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/carb"
+            android:textColor="@color/dark"/>
 
         <TextView
             android:id="@+id/tvCarbohydrates"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textColor="@color/dark"/>
 
     </LinearLayout>
 
@@ -133,13 +150,18 @@
             android:text="Protein: "
             android:textStyle="bold"
             android:layout_marginBottom="13dp"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/protein"
+            android:textColor="@color/dark"/>
+
         <TextView
             android:id="@+id/tvProtein"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textColor="@color/dark"
+            />
     </LinearLayout>
 
 
